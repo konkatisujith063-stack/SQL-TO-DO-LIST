@@ -28,3 +28,15 @@ It includes two modules:
 ## FUTURE ENHANCEMENTS 🔮
 - Add triggers to auto‑update task status.
 - Build a front‑end (HTML/PHP or Python Flask) to interact with the database.
+
+
+## 🗂 Schema Design
+
+### To‑Do List
+```sql
+CREATE TABLE todo_list (
+    task_id INT AUTO_INCREMENT PRIMARY KEY,
+    task_name VARCHAR(100),
+    due_date DATE,
+    status VARCHAR(20) DEFAULT 'Pending'
+);
