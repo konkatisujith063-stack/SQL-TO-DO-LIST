@@ -1,4 +1,4 @@
-# SQL-TO-DO-LIST
+# SQL-TO-DO-LIST📋
 SQL To‑Do List is a beginner‑friendly project showcasing task management with SQL. It covers schema design, CRUD operations, deadlines, and status tracking. Users can add, update, delete, and query tasks, making it a practical foundation for productivity apps.
 
 # SQL To‑Do List 
@@ -25,6 +25,6 @@ It includes two modules:
 - Insert sample data using the provided queries.
 - Run SELECT queries to view reports.
 
-FUTURE ENHANCEMENTS
+## FUTURE ENHANCEMENTS 🔮
 - Add triggers to auto‑update task status.
 - Build a front‑end (HTML/PHP or Python Flask) to interact with the database.
